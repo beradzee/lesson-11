@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form and meta tages</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/21dc2a187f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <form action="" method="post">
+            <div class="wrapper-form">
+                <label for="firstname">Name</label>
+                <input class="input-wrapper" type="text" name="fname" id="firstname" placeholder="enter your first name"
+                    required>
+            </div>
+            <div class="wrapper-form flex">
+                <label for="mypass">Password</label>
+                <input class="input-wrapper" type="password" name="password" id="mypass"
+                    placeholder="enter your first password" required>
+            </div>
+            <div class="wrapper-form">
+                <label for="">review</label>
+                <textarea class="textarea-wrapper" name="" id="" placeholder="your rewiev"></textarea>
+            </div>
+            <div>
+                <div>
+                    <input type="checkbox" id="music" name="hobby-music">
+                    <label for="hobby">music</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobby-dance" id="dance">
+                    <label for="hobby">dance</label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="radio" id="male" name="gender">
+                    <label for="gender">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female">
+                    <label for="gender">Female</label>
+                </div>
+            </div>
+            <div class="btn-div">
+                <button class="btn-sent" type="submit">submit</button>
+            </div>
+        </form>
+    </section>
+    <section>
+        <div class="container">
+            <form class="form-wrapper" action="">
+                <div class="left-block">
+                    <textarea class="textarea-block" name="" id=""></textarea>
+                </div>
+                <div class="right-block">
+                    <input class="input-block" type="text" id="subject" name="input-subject">
+                    <input class="input-block" type="text" id="name" name="input-name">
+                    <input class="input-block" type="email" id="email" name="input-email">
+                    <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i> send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

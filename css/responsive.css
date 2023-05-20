@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+    .form-wrapper {
+        flex-direction: column;
+    }
+    .right-block {
+        max-width: 700px;
+        height: 100px;
+    }
+}
+@media (max-width: 420px) {
+    body {
+        background-color: rgb(219, 48, 48);
+    }
+}
